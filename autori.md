@@ -1,1 +1,1 @@
-Mikulasko Marko
+Mikulasko Marko & Matus Klimko
