@@ -1,9 +1,15 @@
-package sk.upjs.paz;
+package sk.upjs.ics;
 
 import lombok.Data;
 
-public record Users(String id,
-                    String name,
-                    String password) {
+import java.util.Set;
 
+@Data
+public class User {
+    private Long id;
+    private String name;
+    private String chipId;
+    private Set<ChipReader> access;
+    private boolean admin;
+    private boolean active;
 }
