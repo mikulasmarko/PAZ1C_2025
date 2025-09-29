@@ -6,6 +6,10 @@ public class StudentService {
     private Set<Student> students;
 
 
+    public StudentService(Set<Student> students){
+        this.students = students;
+    }
+
     public PomerGenderov getPomerGenderov() {
         int male = 0;
         int female = 0;
