@@ -1,6 +1,8 @@
-package sk.upjs.ics;
+package sk.upjs.paz;
+
 
 import lombok.Data;
+import sk.upjs.jpaz2.Turtle;
 
 import java.util.Set;
 
@@ -9,7 +11,7 @@ public class User {
     private Long id;
     private String name;
     private String chipId;
-    private Set<ChipReader> access;
+    private Set<Turtle> access;
     private boolean admin;
     private boolean active;
 }
