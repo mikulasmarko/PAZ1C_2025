@@ -3,7 +3,7 @@ package sk.upjs.paz;
 import lombok.With;
 
 @With
-public record PomerGenderov(int male, int female, int mutant) {
+public record getGenderRatio(int male, int female, int mutant) {
 
     public double pomerChlapcovKuDievcatam() {
         var celkovo = female + male + mutant;
