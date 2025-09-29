@@ -6,7 +6,11 @@ public class StudentService {
     private Set<Student> students;
 
 
-    public PomerGenderov getPomerGenderov() {
+    public StudentService(Set<Student> students){
+        this.students = students;
+    }
+
+    public GenderRatio getPomerGenderov() {
         int male = 0;
         int female = 0;
         int mutant = 0;
@@ -23,7 +27,7 @@ public class StudentService {
 
         }
 
-        return new PomerGenderov(male, female,mutant);
+        return new GenderRatio(male, female,mutant);
     }
 
 
