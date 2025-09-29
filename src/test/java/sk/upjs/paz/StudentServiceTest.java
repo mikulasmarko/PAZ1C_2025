@@ -38,10 +38,9 @@ class StudentServiceTest {
 
     @org.junit.jupiter.api.Test
     void testGetPomerGenderov() {
-
         var vysledok = studentService.getPomerGenderov();
 
-        var spravnyVysledok = new PomerGenderov(
+        var spravnyVysledok = new GenderRatio(
                 1, 2, 1
         );
 
