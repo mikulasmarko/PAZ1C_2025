@@ -1,10 +1,9 @@
 package sk.upjs.paz;
 
-import sk.upjs.jpaz2.*;
-
-public class Launcher {
+public class IDELauncher {
 
 	public static void main(String[] args) {
 		// put your code here
+        AttendanceApp.main(args);
 	}
 }
